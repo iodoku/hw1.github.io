@@ -8,9 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        게임을 통해 즐거움을 창조하고 싶은 개발자입니다!
-      image:
-        filename: welcome.jpg
+        게임을 통해 즐거움을 창조하고 싶은 개발자입니다!    
       text: |
         <br>
         
