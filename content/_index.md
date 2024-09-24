@@ -8,11 +8,12 @@ sections:
   - block: hero
     content:
       title: |
-        게임을 통해 즐거움을 창조하고 싶은 개발자입니다!    
+        <span style="font-size: 1.5rem;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다!</span>
       text: |
-        <br>
-        
-        안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. 게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.
+        <div style="text-align: center; font-size: 1.2rem; color: #FF5733;">
+          <br>
+          안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. 게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.
+        </div>
 
   - block: collection
     content:
