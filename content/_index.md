@@ -8,15 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        게임을 통해 즐거움을 창조하고 싶은 개발자입니다!
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. 게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.
+
   - block: collection
     content:
       title: Latest News
