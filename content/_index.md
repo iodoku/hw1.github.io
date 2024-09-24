@@ -5,20 +5,11 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: |
-        <span style="font-size: 1.5rem; color: #FF5733; text-align: center; display: block;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다!</span>
-      text: |
-        <div style="font-size: 1.2rem; text-align: center;">
-          <br>
-          안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. 게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.
-        </div>
       
   - block: features
     content:
-      title: <span style="font-size:75%">Medical AI & Computational Science (MACS) Lab </span>
-      text: <span style="font-size:110%">전북대학교 의료 AI 및 계산 수학 연구실 홈페이지에 오신 것을 환영합니다.</span>
+      title: <span style="font-size:75%"; color:Orange;>게임을 통해 즐거움을 창조하고 싶은 개발자입니다! </span>
+      text: <span style="font-size:110%">안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. 게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.</span>
 
   - block: collection
     content:
