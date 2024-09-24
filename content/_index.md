@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        <span style="font-size: 1.5rem; color: #FF5733; justify-content: center; align-items: center; display: flex;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다!</span>
+        <span style="font-size: 1.5rem; color: #FF5733; text-align: center; display: block;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다!</span>
       text: |
         <div style="font-size: 1.2rem; text-align: center;">
           <br>
