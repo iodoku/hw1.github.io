@@ -16,7 +16,45 @@ sections:
       title: Latest News
       subtitle:
       text:
-      count: 2
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '3'
+    
+  - block: collection
+    content:
+      title: 2
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '3'
+  
+  - block: collection
+    content:
+      title: 3
+      subtitle:
+      text:
+      count: 5
       filters:
         author: ''
         category: ''
