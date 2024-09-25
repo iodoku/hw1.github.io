@@ -25,7 +25,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: people
     design:
       view: card
       columns: '1'
