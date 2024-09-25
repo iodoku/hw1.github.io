@@ -28,7 +28,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '3'
+      rows: '3'
   
   - block: markdown
     content:
