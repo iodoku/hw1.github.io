@@ -8,14 +8,16 @@ date: 2024-09-26
 
 <!--more-->
 
-<div style="text-align: center;">
-  <img src="1.jpg" alt="게임 이미지" style="width: 50%; height: auto;">
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="1.jpg" alt="게임 이미지" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <p>아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.</p>
+    <ul>
+      <li>담당 파트 : 1인개발</li>
+      <li>게임 사양 :</li>
+      <li>제작 기간 : 2024.05.20~2024.07.08</li>
+    </ul>
+  </div>
 </div>
-
-아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.
-
-- 담당 파트 : 1인개발
-
-- 게임 사양 : 
-
-- 제작 기간 : 2024.05.20~2024.07.08
