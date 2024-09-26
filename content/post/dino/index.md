@@ -1,14 +1,16 @@
 ---
 title: Dino Adventure
 date: 2024-09-26
-image:
-  filename: 1.jpg
-  focal_point: 'top'
+
 ---
 
 게임 개발 프로젝트
 
 <!--more-->
+
+<div style="text-align: center;">
+  <img src="1.jpg" alt="게임 이미지" style="width: 50%; height: auto;">
+</div>
 
 아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.
 
