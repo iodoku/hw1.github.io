@@ -11,7 +11,7 @@ date: 2024-09-26
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <!-- 이미지 크기를 키우기 위해 width 값을 늘립니다. -->
-    <img src="1.jpg" alt="게임 이미지" style="width: 80%; height: auto;">
+    <img src="1.jpg" alt="게임 이미지" style="width: 150%; height: auto;">
   </div>
   <div style="flex: 1; padding-left: 20px; font-size: 1.5em;">
     <!-- 텍스트 크기를 키우기 위해 font-size를 조절합니다. -->
