@@ -3,7 +3,7 @@ title: Dino Adventure
 date: 2024-09-26
 image:
   filename: 1.jpg
-  focal_point: 'top'
+  focal_point: 'left'
   params:
     width: 100%
 ---
