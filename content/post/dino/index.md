@@ -10,9 +10,11 @@ date: 2024-09-26
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="1.jpg" alt="게임 이미지" style="width: 100%; height: auto;">
+    <!-- 이미지 크기를 키우기 위해 width 값을 늘립니다. -->
+    <img src="1.jpg" alt="게임 이미지" style="width: 80%; height: auto;">
   </div>
-  <div style="flex: 1; padding-left: 20px;">
+  <div style="flex: 1; padding-left: 20px; font-size: 1.5em;">
+    <!-- 텍스트 크기를 키우기 위해 font-size를 조절합니다. -->
     <p>아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.</p>
     <ul>
       <li>담당 파트 : 1인개발</li>
