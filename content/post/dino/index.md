@@ -8,11 +8,6 @@ image:
     width: "100%"
 
 # 슬라이더 블록을 image와 같은 수준으로 분리
----
-title: Tour
-date: 2022-10-24
-
-type: landing
 
 sections:
   - block: slider
