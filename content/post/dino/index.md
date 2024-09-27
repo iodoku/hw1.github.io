@@ -1,13 +1,7 @@
 ---
 title: Dino Adventure
 date: 2024-09-26
-image:
-  filename: "1.jpg"
-  focal_point: "left"
-  params:
-    width: "100%"
-
-blocks:
+sections:
   - block: slider
     content:
       slides:
@@ -47,9 +41,12 @@ blocks:
           text: Join Us
           url: ../contact/
     design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
+      # Automatically transition through slides?
       loop: false
+      # Duration of transition between slides (in ms)
       interval: 2000
 ---
 
