@@ -1,102 +1,49 @@
 ---
 title: Dino Adventure
 date: 2024-09-26
-type: landing
-
-sections:
-
-  - block: features
-    content:
-      title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
-      text: <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-
-
-  - block: slider
-    content:
-      slides:
-
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
-        align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-        link:
-          icon: user
-          icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
-          url: contact
-
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
-        align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:70%">Healthcare</span>
-        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
-        align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:70%">Mathematics</span>
-        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
-        align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:70%">Development</span>
-        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
-        align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      slide_width: '100px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000
+image:
+  filename: 1.jpg
+  focal_point: 'left'
+  params:
+    width: 100%
 ---
 
+## 프로젝트 소개
+"Dino Adventure"는 아기 공룡들과 함께 동굴을 탐험하는 2D 플랫포머 게임입니다. 다양한 퍼즐과 장애물을 극복하며 모험하는 재미를 강조한 작품입니다.
 
-아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.
+## 담당 파트
+- **1인 개발**: 기획, 디자인, 프로그래밍, 레벨 디자인 등 게임의 전반적인 부분을 모두 담당했습니다.
 
-- 담당 파트 : 1인개발
+## 게임 사양
+- **플랫폼**: PC
+- **개발 툴**: Unity, C#
+- **그래픽 툴**: Photoshop, Aseprite (픽셀 아트 디자인에 활용)
 
-- 게임 사양 : 
+## 주요 기능 및 특징
+- **독특한 동굴 맵 디자인**: 다양한 레벨로 구성된 동굴 환경을 탐험하며, 각 레벨마다 다른 퍼즐과 함정을 갖추고 있습니다.
+- **간단한 컨트롤**: 키보드로 간단한 움직임과 점프를 통해 게임을 플레이할 수 있도록 설계하였습니다.
+- **스킬 시스템**: 플레이어가 성장하며 다양한 스킬을 배우고 사용할 수 있습니다.
 
-- 제작 기간 : 2024.05.20~2024.07.08
+## 게임 디자인 및 그래픽
+- 아기 공룡 캐릭터를 귀엽고 친근한 스타일로 디자인하여 플레이어가 쉽게 공감하고 애정을 느낄 수 있도록 하였습니다.
+- 동굴의 어두운 배경과 빛나는 보석, 생동감 있는 몬스터 등을 통해 동굴 모험의 긴장감과 즐거움을 동시에 제공하였습니다.
+
+## 개발 과정
+- **기획 단계**: 기본 게임 컨셉과 스토리를 확정하고, 레벨 디자인 및 캐릭터 디자인 초안을 그렸습니다.
+- **프로그래밍 단계**: Unity를 사용하여 게임의 기본 시스템(플레이어 이동, 점프, 충돌 감지)을 구현하였고, 이후 레벨 별로 퍼즐과 장애물을 추가했습니다.
+- **테스트 및 디버깅**: 테스트 플레이를 통해 발견된 버그를 수정하고, 게임의 난이도와 밸런스를 조정했습니다.
+
+## 제작 기간
+- **2024.05.20 ~ 2024.07.08**: 2달간의 제작 기간 동안 기획, 개발, 디자인, 테스트 등의 전 과정을 혼자서 진행하였습니다.
+
+## 배운 점 및 성과
+- Unity를 활용한 게임 개발 전체 과정을 직접 경험하면서 프로그래밍 실력과 게임 디자인 감각을 향상시킬 수 있었습니다.
+- 완성된 게임을 통해 게임 개발 과정의 기획부터 출시까지의 모든 단계를 체험하며, 프로젝트 관리 및 타임라인 관리의 중요성을 배웠습니다.
+
+## 향후 계획
+- 추가적인 게임 모드와 다양한 스테이지를 추가하여 플레이어에게 더 풍부한 경험을 제공할 계획입니다.
+- 스토리와 캐릭터의 서사에 대한 깊이를 더해, 게임에 몰입할 수 있는 요소를 강화할 예정입니다.
 
 ---
 
-
+위와 같이 프로젝트의 각 부분을 더 자세하게 기술하면, 보는 사람이 게임 개발의 전체 과정을 쉽게 이해할 수 있고, 프로젝트에 대한 전문성과 열정을 더 잘 전달할 수 있습니다.
