@@ -2,11 +2,13 @@
 title: Dino Adventure
 date: 2024-09-26
 image:
-  filename: 1.jpg
-  focal_point: 'left'
+  filename: "1.jpg"
+  focal_point: "left"
   params:
-    width: 100%
-    
+    width: "100%"
+
+# 슬라이더 블록을 image와 같은 수준으로 분리
+blocks:
   - block: slider
     content:
       slides:
@@ -16,7 +18,7 @@ image:
         align: center
         background:
           image:
-            filename: Ai.jpg
+            filename: "Ai.jpg"
             filters:
               brightness: 0.4
           position: center
@@ -27,26 +29,22 @@ image:
         align: center
         background:
           image:
-            filename: medical.jpg
+            filename: "medical.jpg"
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: true
-      # Duration of transition between slides (in ms)
       interval: 3000
 ---
 
 게임 개발 프로젝트
 
 <!--more-->
-
 
 아기 공룡들과 같이 동굴 모험을 하는 2D 플랫포머 장르입니다.
 
@@ -55,5 +53,3 @@ image:
 - 게임 사양 : 
 
 - 제작 기간 : 2024.05.20~2024.07.08
-
-
