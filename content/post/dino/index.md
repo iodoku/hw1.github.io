@@ -7,9 +7,7 @@ image:
   params:
     width: "100%"
 
-# 슬라이더 블록을 image와 같은 수준으로 분리
-
-sections:
+blocks:
   - block: slider
     content:
       slides:
@@ -49,12 +47,9 @@ sections:
           text: Join Us
           url: ../contact/
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: false
-      # Duration of transition between slides (in ms)
       interval: 2000
 ---
 
