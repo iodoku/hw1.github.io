@@ -8,38 +8,59 @@ image:
     width: "100%"
 
 # 슬라이더 블록을 image와 같은 수준으로 분리
-blocks:
+---
+title: Tour
+date: 2022-10-24
+
+type: landing
+
+sections:
   - block: slider
     content:
       slides:
-
-      - title: <span style="font-size:90%">AI</span>
-        content: <span style="font-size:90%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:90%">
+      - title: 👋 Welcome to the group
+        content: Take a look at what we're working on...
         align: center
         background:
           image:
-            filename: "Ai.jpg"
+            filename: coders.jpg
             filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Medical AI</span>
-        content: <span style="font-size:90%">의료AI를 통한 질병 진단 및 환경 개선</span>
-        align: center
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: Lunch & Learn ☕️
+        content: 'Share your knowledge with the group and explore exciting new topics together!'
+        align: left
         background:
           image:
-            filename: "medical.jpg"
+            filename: contact.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.7
           position: center
-          color: '#000'
-
+          color: '#555'
+      - title: World-Class Semiconductor Lab
+        content: 'Just opened last month!'
+        align: right
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../contact/
     design:
-      slide_height: '350px'
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
       is_fullscreen: true
-      loop: true
-      interval: 3000
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
 ---
 
 게임 개발 프로젝트
