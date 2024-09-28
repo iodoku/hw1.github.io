@@ -1,11 +1,6 @@
 ---
 title: Dino Adventure
 date: 2024-09-26
-image:
-  filename: dino.png
-  focal_point: 'left'
-  params:
-    width: 100%
 ---
 
 ## 프로젝트 소개
