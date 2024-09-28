@@ -27,7 +27,7 @@ sections:
       order: desc
       filters:
         folders:
-          - post/dinobanner
+          - post
     design:
       view: card
       columns: '3'
