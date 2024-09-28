@@ -2,11 +2,27 @@
 title: Bill Gates
 date: 2024-09-26
 image:
-  filename: billgateslogo.png
-  focal_point: 'left'
-  params:
-    width: 100%
+  - filename: 제목 없음.png  # 두 번째 이미지를 먼저 넣습니다.
+    focal_point: 'center'
+    params:
+      width: 100%
 ---
+
+<div style="display: flex; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="billgateslogo.png" alt="게임 이미지 1" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="grade.png" alt="게임 이미지 2" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="rank.png" alt="게임 이미지 3" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="option.png" alt="게임 이미지 4" style="width: 100%; height: auto;">
+  </div>
+</div>
+
 
 ## 프로젝트 소개
 "Bill Gates"는 전북대학교 컴퓨터 인공지능 학부 학생들을 위해 개발된 애플리케이션입니다. 이 앱은 학점과 시간표 관리를 효율적으로 지원하며, 개인에게 최적화된 수강 로드맵을 쉽게 구성할 수 있도록 도와줍니다.
