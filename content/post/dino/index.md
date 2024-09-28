@@ -6,7 +6,7 @@ images:
     focal_point: 'left'
     params:
       width: 100%
-  - filename: dino2.jpg
+  - filename: dino.jpg
     focal_point: 'center'
     params:
       width: 50%
