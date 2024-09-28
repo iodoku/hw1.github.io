@@ -63,7 +63,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post copy
+      page_type: postcopy
     design:
       view: card
       columns: '3'
