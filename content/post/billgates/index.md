@@ -46,7 +46,7 @@ image:
 - 사용자 커스터마이징 요소를 추가하여 자유성을 제공하고 싶습니다.
 
 
-![Dino Adventure 게임 이미지](grade.png)
-![Dino Adventure 게임 이미지](rank.png)
-![Dino Adventure 게임 이미지](option.png)
+![](grade.png)
+![](rank.png)
+![](option.png)
 ---

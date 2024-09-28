@@ -43,5 +43,7 @@ image:
 - 추가적인 게임 모드와 다양한 스테이지를 추가하여 플레이어에게 더 풍부한 경험을 제공할 계획입니다.
 - 다양한 공룡 캐릭터 디자인 추가 및 여러 스킬을 추가해보고 싶습니다.
 
-![Dino Adventure 게임 이미지](dino.jpg)
+![](dinowhite.png)
+![](dinoattack.png)
+![](enemy.png)
 ---
