@@ -8,7 +8,7 @@ image:
       width: 100%
 ---
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; align-items: center; justify-content: center;">
   <div style="flex: 1;">
     <img src="billgateslogo.png" alt="게임 이미지 1" style="width: 100%; height: auto;">
   </div>
