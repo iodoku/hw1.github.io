@@ -26,7 +26,7 @@ sections:
           - post
     design:
       view: card
-      columns: '1'
+      columns: '4'
     
   - block: collection
     content:
@@ -45,7 +45,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '3'
+      columns: '5'
   
   - block: collection
     content:
@@ -64,7 +64,7 @@ sections:
       page_type: postcopy
     design:
       view: card
-      columns: '3'
+      columns: '6'
   
   - block: markdown
     content:
