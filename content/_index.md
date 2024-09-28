@@ -12,21 +12,6 @@ sections:
       text: <span style="font-size:110%">안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. <br>게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.</span>
 
 
-  - block: collection
-    content:
-      id: section-1
-      title: Notifications & News
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - post
-    design:
-      view: card
-      columns: '3'
 
   - block: collection
     content:
@@ -41,7 +26,7 @@ sections:
           - post
     design:
       view: card
-      columns: '3'
+      columns: '1'
     
   - block: collection
     content:
