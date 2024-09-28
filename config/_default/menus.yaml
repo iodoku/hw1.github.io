@@ -6,19 +6,36 @@
 main:
   - name: Tour
     url: tour
-    weight: 10
+    weight: 70
   - name: News
     url: post
-    weight: 20
+    weight: 30
   - name: People
     url: people
-    weight: 30
+    weight: 40
   - name: Events
     url: event
-    weight: 40
+    weight: 50
   - name: Publications
     url: publication
-    weight: 50
+    weight: 60
+
   - name: Contact
     url: contact
-    weight: 60
+    weight: 10
+
+  - name: Projects
+    url: 
+    weight: 20
+  - parent: Projects
+    name: Dino Adventure
+    url: post/dino
+    weight: 21
+  - parent: Projects
+    name: Bill Gates
+    url: post/billgates
+    weight: 22
+  - parent: Projects
+    name: post/
+    url: 
+    weight: 23
