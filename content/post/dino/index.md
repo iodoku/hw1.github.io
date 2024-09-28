@@ -5,7 +5,7 @@ image:
   filename: dino.jpg
   focal_point: 'left'
   params:
-    width: 100%
+    width: 300%
 ---
 
 ## 프로젝트 소개
