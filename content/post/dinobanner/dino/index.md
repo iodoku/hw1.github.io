@@ -1,7 +1,14 @@
 ---
 title: Dino Adventure
 date: 2024-09-26
+image:
+  filename: dino.jpg
+  focal_point: 'left'
+  params:
+    width: 100%
 ---
+
+![Dino Adventure 게임 이미지](dino.png)
 
 ## 프로젝트 소개
 "Dino Adventure"는 아기 공룡들과 함께 동굴을 탐험하는 2D 플랫포머 게임입니다. 다양한 퍼즐과 장애물을 극복하며 모험하는 재미를 강조한 작품입니다.
