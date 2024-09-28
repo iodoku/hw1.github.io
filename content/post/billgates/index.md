@@ -1,23 +1,12 @@
 ---
 title: Bill Gates
 date: 2024-09-26
+image:
+  filename: billgateslogo.png
+  focal_point: 'left'
+  params:
+    width: 100%
 ---
-
-<div style="display: flex; align-items: center; justify-content: space-around; max-width: 100%; margin: 0 auto;">
-  <!-- 이미지 영역을 flex로 동일한 비율로 균등 배치하고, 크기를 적절히 조정합니다. -->
-  <div style="flex: 1; padding: 10px;">
-    <img src="billgateslogo.png" alt="게임 이미지 1" style="width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <img src="grade.png" alt="게임 이미지 2" style="width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <img src="rank.png" alt="게임 이미지 3" style="width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <img src="option.png" alt="게임 이미지 4" style="width: 100%; height: auto;">
-  </div>
-</div>
 
 
 ## 프로젝트 소개
@@ -56,4 +45,8 @@ date: 2024-09-26
 - 다른 학과의 수강 로드맵을 추가로 구현하여 사용 범위를 확대하고자 합니다.
 - 사용자 커스터마이징 요소를 추가하여 자유성을 제공하고 싶습니다.
 
+
+![Dino Adventure 게임 이미지](grade.png)
+![Dino Adventure 게임 이미지](rank.png)
+![Dino Adventure 게임 이미지](option.png)
 ---
