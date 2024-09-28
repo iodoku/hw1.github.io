@@ -26,7 +26,7 @@ sections:
           - post
     design:
       view: card
-      columns: '2'
+      columns: '3'
 
   - block: collection
     content:
@@ -34,12 +34,6 @@ sections:
       subtitle:
       text:
       count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
       offset: 0
       order: desc
       filters:
