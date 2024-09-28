@@ -1,24 +1,20 @@
 ---
 title: Bill Gates
 date: 2024-09-26
-image:
-  - filename: billgateslogo.png  # 두 번째 이미지를 먼저 넣습니다.
-    focal_point: 'center'
-    params:
-      width: 100%
 ---
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <div style="flex: 1;">
+<div style="display: flex; align-items: center; justify-content: space-around; max-width: 100%; margin: 0 auto;">
+  <!-- 이미지 영역을 flex로 동일한 비율로 균등 배치하고, 크기를 적절히 조정합니다. -->
+  <div style="flex: 1; padding: 10px;">
     <img src="billgateslogo.png" alt="게임 이미지 1" style="width: 100%; height: auto;">
   </div>
-  <div style="flex: 1;">
+  <div style="flex: 1; padding: 10px;">
     <img src="grade.png" alt="게임 이미지 2" style="width: 100%; height: auto;">
   </div>
-  <div style="flex: 1;">
+  <div style="flex: 1; padding: 10px;">
     <img src="rank.png" alt="게임 이미지 3" style="width: 100%; height: auto;">
   </div>
-  <div style="flex: 1;">
+  <div style="flex: 1; padding: 10px;">
     <img src="option.png" alt="게임 이미지 4" style="width: 100%; height: auto;">
   </div>
 </div>
