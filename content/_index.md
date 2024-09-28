@@ -45,7 +45,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '10'
   
   - block: collection
     content:
@@ -65,6 +65,7 @@ sections:
     design:
       view: card
       columns: '3'
+      title_style: "text-align: right;"
   
   - block: markdown
     content:
