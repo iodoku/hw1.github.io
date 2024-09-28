@@ -1,11 +1,6 @@
 ---
 title: Bill Gates
 date: 2024-09-26
-image:
-  - filename: billgateslogo.png  # 두 번째 이미지를 먼저 넣습니다.
-    focal_point: 'center'
-    params:
-      width: 100%
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-around; max-width: 100%; margin: 0 auto;">
