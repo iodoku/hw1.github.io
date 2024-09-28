@@ -2,7 +2,7 @@
 title: Bill Gates
 date: 2024-09-26
 image:
-  - filename: 제목 없음.png  # 두 번째 이미지를 먼저 넣습니다.
+  - filename: billgateslogo.png  # 두 번째 이미지를 먼저 넣습니다.
     focal_point: 'center'
     params:
       width: 100%
