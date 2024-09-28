@@ -25,6 +25,7 @@ sections:
         folders:
           - post
     design:
+      view: card
       columns: '2'
 
   - block: collection
