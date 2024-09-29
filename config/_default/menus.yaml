@@ -30,7 +30,7 @@ main:
   - parent: Projects
     name: Dino Adventure
     url: projects/dino
-    weight: 21
+    weight: 23
   - parent: Projects
     name: Bill Gates
     url: projects/billgates
@@ -38,7 +38,7 @@ main:
   - parent: Projects
     name: Space Escape(진행중)
     url: projects/space
-    weight: 23
+    weight: 21
 
   - name: Practices
     url: 
@@ -46,12 +46,12 @@ main:
   - parent: Practices
     name: 3D Survival
     url: practies/survival
-    weight: 31
+    weight: 33
   - parent: Practices
-    name: 
-    url: practies/
+    name: Interaction
+    url: practies/interaction
     weight: 32
   - parent: Practices
-    name: 
-    url: practies/
-    weight: 33
+    name: Tile Bania
+    url: practies/tile
+    weight: 31
