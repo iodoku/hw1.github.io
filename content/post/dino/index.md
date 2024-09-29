@@ -17,7 +17,7 @@ image:
 ## 게임 사양
 - **플랫폼**: PC
 - **개발 툴**: Unity, C#
-- **그래픽 툴**: Photoshop, Aseprite
+- **그래픽 툴**: Photoshop, Aseprite, Unity Asset
 
 ## 주요 기능 및 특징
 - **독특한 동굴 맵 디자인**: 다양한 레벨로 구성된 동굴 환경을 탐험하며, 각 레벨마다 다른 퍼즐과 함정을 갖추고 있습니다.
