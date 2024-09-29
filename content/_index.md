@@ -34,7 +34,7 @@ sections:
       count: 5
       offset: 0
       order: desc
-      page_type: practies
+      page_type: practices
     design:
       view: card
       columns: '1'
