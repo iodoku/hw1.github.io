@@ -15,7 +15,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest News
+      title: Projects
       subtitle:
       text:
       count: 5
@@ -28,19 +28,13 @@ sections:
     
   - block: collection
     content:
-      title: 2
+      title: Practies
       subtitle:
       text:
       count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
       offset: 0
       order: desc
-      page_type: practices
+      page_type: practies
     design:
       view: card
       columns: '1'
