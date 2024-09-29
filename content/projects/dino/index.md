@@ -2,7 +2,7 @@
 title: Dino Adventure
 date: 2024-09-26
 image:
-  filename: 1.jpg
+  filename: dino.jpg
   focal_point: 'left'
   params:
     width: 100%
@@ -17,7 +17,7 @@ image:
 ## 게임 사양
 - **플랫폼**: PC
 - **개발 툴**: Unity, C#
-- **그래픽 툴**: Photoshop, Aseprite
+- **그래픽 툴**: Photoshop, Aseprite, Unity Asset
 
 ## 주요 기능 및 특징
 - **독특한 동굴 맵 디자인**: 다양한 레벨로 구성된 동굴 환경을 탐험하며, 각 레벨마다 다른 퍼즐과 함정을 갖추고 있습니다.
@@ -43,4 +43,7 @@ image:
 - 추가적인 게임 모드와 다양한 스테이지를 추가하여 플레이어에게 더 풍부한 경험을 제공할 계획입니다.
 - 다양한 공룡 캐릭터 디자인 추가 및 여러 스킬을 추가해보고 싶습니다.
 
+![](dinowhite.png)
+![](dinoattack.png)
+![](enemy.png)
 ---

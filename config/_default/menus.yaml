@@ -9,7 +9,7 @@ main:
     weight: 70
   - name: News
     url: post
-    weight: 30
+    weight: 80
   - name: People
     url: people
     weight: 40
@@ -29,13 +29,29 @@ main:
     weight: 20
   - parent: Projects
     name: Dino Adventure
-    url: post/dino
+    url: projects/dino
     weight: 21
   - parent: Projects
     name: Bill Gates
-    url: post/billgates
+    url: projects/billgates
     weight: 22
   - parent: Projects
-    name: post/
-    url: 
+    name: Space Escape(진행중)
+    url: projects/space
     weight: 23
+
+  - name: Practices
+    url: 
+    weight: 30
+  - parent: Practices
+    name: 3D Survival
+    url: practies/survival
+    weight: 31
+  - parent: Practices
+    name: 
+    url: practies/
+    weight: 32
+  - parent: Practices
+    name: 
+    url: practies/
+    weight: 33
