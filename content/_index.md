@@ -21,9 +21,7 @@ sections:
       count: 5
       offset: 0
       order: desc
-      filters:
-        folders:
-          - post
+      page_type: projects
     design:
       view: card
       columns: '1'
@@ -42,7 +40,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: practices
     design:
       view: card
       columns: '1'
