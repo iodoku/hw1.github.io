@@ -3,7 +3,7 @@ title: Tile Bania
 date: 2024-09-26
 
 image:
-  filename: tile1.jpg
+  filename: tile1.png
   focal_point: 'left'
   params:
     width: 100%
