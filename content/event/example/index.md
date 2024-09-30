@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%86%8C%EB%8B%88-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98-vr%EC%9D%84-%EC%9E%85%EA%B3%A0-%EC%9E%88%EB%8A%94-%EB%82%A8%EC%9E%90-MxVkWPiJALs)'
   focal_point: Right
 
 url_code: ''

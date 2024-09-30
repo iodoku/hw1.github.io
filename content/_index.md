@@ -53,7 +53,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: contact
+      page_type: planning
     design:
       view: card
       columns: '1'
