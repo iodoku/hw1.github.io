@@ -64,7 +64,7 @@ main:
     url: practies/tile
     weight: 31
 
-  - name: Planning(기획단계)
+  - name: Planning
     url: 
     weight: 40
   - parent: Planning
@@ -79,3 +79,15 @@ main:
     name: Gacha
     url: planning/gacha
     weight: 41
+
+  - name: Other
+    url: 
+    weight: 50
+  - parent: Other
+    name: Cave
+    url: other/cave
+    weight: 51
+  - parent: Other
+    name: Debuff
+    url: other/debuff
+    weight: 52
