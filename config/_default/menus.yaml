@@ -20,9 +20,17 @@ main:
     url: publication
     weight: 60
 
-  - name: Contact
-    url: contact
+  - name: About
+    url: 
     weight: 10
+  - parent: About
+    name: My Story
+    url: about/mystory
+    weight: 11
+  - parent: About
+    name: Contact
+    url: about/contact
+    weight: 12
 
   - name: Projects
     url: 
@@ -56,7 +64,7 @@ main:
     url: practies/tile
     weight: 31
 
-  - name: Planning
+  - name: Planning(기획단계)
     url: 
     weight: 40
   - parent: Planning

@@ -41,7 +41,7 @@ sections:
   
   - block: collection
     content:
-      title: 3
+      title: Planning(기획단계)
       subtitle:
       text:
       count: 5
