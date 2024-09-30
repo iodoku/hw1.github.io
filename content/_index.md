@@ -53,7 +53,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: postcopy
+      page_type: contact
     design:
       view: card
       columns: '1'
