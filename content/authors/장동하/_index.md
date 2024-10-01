@@ -1,10 +1,10 @@
 ---
 # Display name
-title: dong
+title: 장동하
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Jang
+last_name: Dongha
 
 # Username (this should match the folder name)
 authors:
@@ -66,12 +66,6 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Researchers
-  - Visitors
 ---
 
 吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
