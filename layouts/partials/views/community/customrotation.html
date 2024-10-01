@@ -26,7 +26,7 @@
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; transition: transform 0.3s ease;">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%); transition: transform 0.3s ease;">
   </a>
   {{ end }}
   <div class="card-text">
@@ -55,11 +55,3 @@
     {{ end }}
   </div>
 </div>
-
-<!-- CSS 추가 -->
-<style>
-  /* 이미지 회전 효과 */
-  .card-image img:hover {
-    transform: rotate(5deg); /* 마우스 오버 시 5도 회전 */
-  }
-</style>
