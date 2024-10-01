@@ -25,8 +25,11 @@
   {{ $image := .Resize "400x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
-    <img src="{{ $image.RelPermalink }}" height: 150%; width: 200%;
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="margin-top: 15px;">
+    <img src="{{ $image.RelPermalink }}" 
+     alt="{{ $item.Title }}" 
+     class="img-responsive" 
+     loading="lazy" 
+     style="margin-top: 15px; width: 200%; height: 150%;">
   </a>
   {{ end }}
   <div class="card-text">
