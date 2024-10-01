@@ -20,13 +20,13 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="border: 1px solid #e0e0e0; border-radius: 25px; overflow: hidden; margin: 15px; padding: 15px; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);">
+<div class="card" style="border: 1px solid #e0e0e0; border-radius: 25px; overflow: hidden; margin: 15px; padding: 15px; box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);">
   {{ with $resource }}
-  {{ $image := .Resize "550x" }}
+  {{ $image := .Resize "275x" }} <!-- 이미지 크기를 반으로 줄임 -->
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; border-radius: 25px; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; border-radius: 25px; box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);">
   </a>
   {{ end }}
   <div class="card-text">
