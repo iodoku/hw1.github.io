@@ -36,7 +36,7 @@ sections:
       order: desc
       page_type: practices
     design:
-      view: card
+      view: community/custom
       columns: '1'
   
   - block: collection
@@ -55,7 +55,7 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: card
+      view: community/custom
       columns: '1'
   
   - block: markdown
