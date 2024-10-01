@@ -1,0 +1,9 @@
+<div class="custom-view"></div>
+  {{ range .Pages }}
+  <div class="custom-card">
+    <h2>{{ .Title }}</h2>
+    <p>{{ .Summary }}</p>
+    <a href="{{ .RelPermalink }}">Read more</a>
+  </div>
+  {{ end }}
+</div>

@@ -23,7 +23,7 @@ sections:
       order: desc
       page_type: projects
     design:
-      view: community/custom_card
+      view: community/custom
       columns: '1'
     
   - block: collection
