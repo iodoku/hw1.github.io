@@ -13,9 +13,9 @@
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay" style="position: relative;">
-    <!-- 이미지에 투명도 적용 -->
+    <!-- 이미지에 기본 투명도 적용 및 hover 효과 추가 -->
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="margin-top: 15px; opacity: 0.5;">
+         alt="{{ $item.Title }}" class="img-responsive card-img" loading="lazy" style="margin-top: 15px;">
     <!-- 텍스트 오버레이 적용 -->
     <div class="overlay-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-weight: bold; text-align: center;">
       {{ $item.Title | markdownify | emojify }}
@@ -23,3 +23,15 @@
   </a>
   {{ end }}
 </div>
+
+<!-- CSS 추가 -->
+<style>
+  .card-img {
+    opacity: 0.5; /* 기본 이미지 투명도 */
+    transition: opacity 0.3s ease; /* 투명도 전환 효과 */
+  }
+
+  .card-img:hover {
+    opacity: 1; /* 마우스 오버 시 투명도 */
+  }
+</style>
