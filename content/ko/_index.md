@@ -23,7 +23,7 @@ sections:
       order: desc
       page_type: projects
     design:
-      view: community/customshadow
+      view: community/customradius
       columns: '1'
     
   - block: collection
@@ -36,7 +36,7 @@ sections:
       order: desc
       page_type: practices
     design:
-      view: community/customshadow
+      view: community/customrotation
       columns: '1'
   
   - block: collection
