@@ -1,36 +1,10 @@
-{{ $item := .item }}
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-{{ end }}
-
-{{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-
 <div class="card" style="position: relative; overflow: hidden;">
-  {{ with $resource }}
-  {{ $image := .Resize "550x" }}
-  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
-    <!-- 이미지에 기본 스타일 적용 -->
-    <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive hover-transparent" loading="lazy" style="margin-top: 15px;">
+  <!-- 이미지와 마우스 오버 시 투명도 효과 적용 -->
+  <a href="#" class="card-image hover-overlay">
+    <img src="path/to/image.jpg" alt="이미지 설명" class="img-responsive hover-transparent" style="margin-top: 15px;">
     <!-- 텍스트 오버레이 적용 -->
     <div class="overlay-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-weight: bold; text-align: center;">
-      {{ $item.Title | markdownify | emojify }}
+      이미지 위 텍스트
     </div>
   </a>
-  {{ end }}
 </div>
-
-<!-- 이미지 hover 시 투명도 적용을 위한 CSS -->
-<style>
-.hover-transparent {
-  transition: opacity 0.3s ease; /* 부드러운 전환을 위한 트랜지션 */
-}
-
-.hover-transparent:hover {
-  opacity: 0.5; /* 마우스 올리면 투명도 적용 */
-}
-</style>
