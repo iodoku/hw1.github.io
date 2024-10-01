@@ -14,17 +14,15 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 재학생
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 전북대학교 컴퓨터공학부
     url: ''
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
+languages:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
