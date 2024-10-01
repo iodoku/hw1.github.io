@@ -55,7 +55,9 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: community/custom
+      view: 
+        -community/custom
+        -community/shadow
       columns: '1'
   
   - block: markdown
