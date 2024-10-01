@@ -7,7 +7,7 @@ first_name: Alice
 last_name: Wu
 
 # Username (this should match the folder name)
-authors:
+mystory1:
   - 吳恩達
 
 # Is this the primary user of the site?
