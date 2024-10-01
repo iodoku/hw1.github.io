@@ -23,21 +23,10 @@ organizations:
 
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 유니티(Unity)
+  - c#
+  - 언리얼(Unreal Engine)
 
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -65,7 +54,7 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 ---
+안녕하세요! 저는 게임에 관심이 많고 게임 제작에 열정을 가진 장동하입니다. 현재 전북대학교 컴퓨터공학부에 재학 중이며, 유니티(Unity) 엔진을 활용하여 다양한 게임을 제작하고 있습니다. 저는 게임을 통해 사람들에게 즐거움을 주는 콘텐츠를 만들고 싶고, 앞으로 게임 개발에 대한 전문성을 키우고자 합니다.
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+특히, 제가 즐겼던 재미있는 게임들을 직접 만들어 다른 사람들이 즐기는 모습을 지켜보는 것이 저의 큰 목표입니다. 또한 창의적인 아이디어를 직접 구현하고 게임의 세계를 통해 새로운 경험을 제공하고 싶습니다. 항상 새로운 도전과 경험을 즐기며 게임 개발자의 길을 걸어나가고 있습니다. 잘 부탁드립니다!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
