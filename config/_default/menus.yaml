@@ -21,7 +21,7 @@ main:
     weight: 100
 
   - name: My Story
-    url: author/Jang/
+    url: author/jang
     weight: 10
 
   - name: Projects
