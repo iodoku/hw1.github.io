@@ -20,20 +20,19 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card">
+<div class="card" style="border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; margin: 15px; padding: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="margin-top: 15px;">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="margin-top: 15px; width: 100%; height: auto; border-bottom: 1px solid #e0e0e0;">
   </a>
   {{ end }}
   <div class="card-text">
     <div class="section-subheading article-title mb-1 mt-3">
         <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
-    
 
     {{ if $item.Params.authors }}
     <div class="article-metadata">
