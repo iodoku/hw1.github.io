@@ -1,4 +1,7 @@
 
+
+{{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+
 <div class="card">
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
