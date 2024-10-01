@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jang
+title: dong
 
 # Full name (for SEO)
 first_name: Alice
