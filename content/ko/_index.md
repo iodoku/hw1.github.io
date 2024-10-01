@@ -41,7 +41,7 @@ sections:
   
   - block: collection
     content:
-      title: Planning(기획단계)
+      title: Planning(기획중)
       subtitle:
       text:
       count: 3
