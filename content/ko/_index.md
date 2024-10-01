@@ -18,7 +18,7 @@ sections:
       title: Projects
       subtitle:
       text:
-      count: 5
+      count: 3
       offset: 0
       order: desc
       page_type: projects
@@ -31,7 +31,7 @@ sections:
       title: Practies
       subtitle:
       text:
-      count: 5
+      count: 3
       offset: 0
       order: desc
       page_type: practices
@@ -44,7 +44,7 @@ sections:
       title: Planning(기획단계)
       subtitle:
       text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
