@@ -26,7 +26,7 @@
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; transition: transform 0.3s ease;">
+         alt="{{ $item.Title }}" class="img-responsive" loading="lazy" style="width: 100%; height: auto; clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 85%); transition: transform 0.3s ease;">
   </a>
   {{ end }}
   <div class="card-text">

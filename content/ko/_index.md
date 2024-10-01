@@ -23,7 +23,7 @@ sections:
       order: desc
       page_type: projects
     design:
-      view: community/customradius
+      view: community/customleft
       columns: '1'
     
   - block: collection
@@ -36,7 +36,7 @@ sections:
       order: desc
       page_type: practices
     design:
-      view: community/customrotation
+      view: community/customright
       columns: '1'
   
   - block: collection
@@ -49,7 +49,7 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: community/customradius
+      view: community/customleft
       columns: '1'
   
   - block: markdown
