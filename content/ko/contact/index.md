@@ -10,6 +10,9 @@ sections:
       title: Contact
       text: |-
         주로 전북대학교 공과대학 7호관에서 수업을 받고 있습니다.
+        
+        백제대로 567 전북대학교 공과대학 7호관  
+        [https://csai.jbnu.ac.kr/csai/index.do](https://csai.jbnu.ac.kr/csai/index.do)
       email: jdhi0112@naver.com
       phone: 010-7630-9315
       address:
