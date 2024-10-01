@@ -45,17 +45,11 @@ sections:
       subtitle:
       text:
       count: 3
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
       offset: 0
       order: desc
       page_type: planning
     design:
-      view: card
+      view: community/customradius
       columns: '1'
   
   - block: markdown
