@@ -23,7 +23,9 @@ sections:
       order: desc
       page_type: projects
     design:
-      view: community/custom
+      view: 
+        -community/custom
+        -community/shadow
       columns: '1'
     
   - block: collection
