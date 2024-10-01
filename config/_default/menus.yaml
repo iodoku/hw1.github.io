@@ -72,18 +72,6 @@ main:
     url: planning/gacha
     weight: 41
 
-  - name: Other
-    url: 
-    weight: 50
-  - parent: Other
-    name: Cave
-    url: other/cave
-    weight: 51
-  - parent: Other
-    name: Debuff
-    url: other/debuff
-    weight: 52
-
   - name: Contact
     url: contact
-    weight: 60
+    weight: 50
