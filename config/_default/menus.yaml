@@ -15,22 +15,14 @@ main:
     weight: 90
   - name: Events
     url: event
-    weight: 50
+    weight: 110
   - name: Publications
     url: publication
-    weight: 60
+    weight: 100
 
-  - name: About
-    url: 
+  - name: My Story
+    url: mystoy
     weight: 10
-  - parent: About
-    name: My Story
-    url: about/mystory
-    weight: 11
-  - parent: About
-    name: Contact
-    url: about/contact
-    weight: 12
 
   - name: Projects
     url: 
@@ -91,3 +83,7 @@ main:
     name: Debuff
     url: other/debuff
     weight: 52
+
+  - name: Contact
+    url: contact
+    weight: 60
