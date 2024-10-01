@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 
-languages:
+interests:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
