@@ -55,7 +55,7 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: community/customshadow
+      view: card
       columns: '1'
   
   - block: markdown
