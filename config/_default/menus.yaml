@@ -26,11 +26,11 @@ main:
     weight: 20
   - parent: Projects
     name: Portfolio 
-    url: projects/portfolio
+    url: portfolio
     weight: 21
   - parent: Projects
     name: Ideas
-    url: projects/ideas
+    url: ideas
     weight: 22
 
   - name: Practices

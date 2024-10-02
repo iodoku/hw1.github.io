@@ -31,11 +31,11 @@
   {{ end }}
   <div class="card-text" style="position: absolute; bottom: 10px; left: 10px;">
     <div class="section-subheading article-title mb-1">
-        <h4 style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+      <h4 style="color: #8B008B; text-shadow: 0 0 8px #8B008B;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
 
     {{ if $item.Params.authors }}
-    <div class="article-metadata" style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;">
+    <div class="article-metadata" style="color: #8B008B; text-shadow: 0 0 8px #8B008B;">
         <div>
             {{ partial "page_metadata_authors" $item }}
         </div>
@@ -43,7 +43,7 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style" style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;">
+    <div class="article-style" style="color: #8B008B; text-shadow: 0 0 8px #8B008B;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
