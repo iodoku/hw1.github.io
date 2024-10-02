@@ -25,6 +25,10 @@ sections:
               brightness: 0.7
           position: top
           color: '#333'
+        link:
+          text: <span style="font-size:60%">My Story</span>
+          text-color: '#000'
+          url: mystory
       - title: Like
         content: '좋아하는 일을 하며 인생을 보내고 싶습니다!'
         align: center
