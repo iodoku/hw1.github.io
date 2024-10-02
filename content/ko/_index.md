@@ -23,7 +23,6 @@ sections:
             filename: minions.jpg
             filters:
               brightness: 0.7
-            caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%B8%8C%EB%A3%A8%ED%81%B4%EB%A6%B0-%EB%8B%A4%EB%A6%AC%EC%97%90-%EC%84%9C-%EC%9E%88%EB%8A%94-%EC%97%AC%EC%9E%90-pLCdAaMFLTE)'
           position: center
           color: '#333'
       - title: Like
@@ -39,7 +38,8 @@ sections:
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
-      is_fullscreen: true
+      slide_width: '100px'
+      is_fullscreen: false
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
