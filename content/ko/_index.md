@@ -68,7 +68,7 @@ sections:
       order: desc
       page_type: practices
     design:
-      view: community/customgreen
+      view: community/
       columns: '1'
   
   - block: collection
@@ -81,7 +81,7 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: community/custompurple
+      view: community/
       columns: '1'
   
   - block: markdown
