@@ -26,18 +26,27 @@ sections:
           position: top
           color: '#333'
       - title: Like
-        content: '좋아하는 일을 하며 인생을 보내고 싶습니다'
+        content: '좋아하는 일을 하며 인생을 보내고 싶습니다!'
         align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: pixel.jpg
             filters:
               brightness: 0.7
-          position: right
+          position: center
+          color: '#666'
+      - title: Dream
+        content: '끊임없이 꿈을 위해 노력하고 싶습니다!'
+        align: center
+        background:
+          image:
+            filename: disney.jpg
+            filters:
+              brightness: 0.7
+          position: center
           color: '#666'
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
+      slide_height: '400px'
       slide_width: '100px'
       is_fullscreen: false
       # Automatically transition through slides?
