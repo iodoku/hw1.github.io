@@ -27,7 +27,7 @@ main:
   - parent: Projects
     name: Portfolio 
     url: projects/portfolio
-    weight: 23
+    weight: 21
   - parent: Projects
     name: Ideas
     url: projects/ideas
@@ -36,22 +36,6 @@ main:
   - name: Practices
     url: practices
     weight: 30
-
-  - name: Planning
-    url: 
-    weight: 40
-  - parent: Planning
-    name: Cave
-    url: planning/cave
-    weight: 43
-  - parent: Planning
-    name: Debuff
-    url: planning/debuff
-    weight: 42
-  - parent: Planning
-    name: Gacha
-    url: planning/gacha
-    weight: 41
 
   - name: Contact
     url: contact

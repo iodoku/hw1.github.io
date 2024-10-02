@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Portfolio
 
 # Listing view
 view: community/customblue

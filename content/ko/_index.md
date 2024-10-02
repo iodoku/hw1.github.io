@@ -47,20 +47,20 @@ sections:
 
   - block: collection
     content:
-      title: Projects
+      title: Portfolio
       subtitle:
       text:
       count: 3
       offset: 0
       order: desc
-      page_type: projects
+      page_type: portfolio
     design:
       view: community/customblue
       columns: '1'
     
   - block: collection
     content:
-      title: Practies
+      title: Practices
       subtitle:
       text:
       count: 3
@@ -73,13 +73,13 @@ sections:
   
   - block: collection
     content:
-      title: Planning(기획중)
+      title: Ideas
       subtitle:
       text:
       count: 3
       offset: 0
       order: desc
-      page_type: planning
+      page_type: ideas
     design:
       view: community/custompurple
       columns: '1'
