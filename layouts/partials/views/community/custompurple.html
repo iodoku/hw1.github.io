@@ -22,7 +22,7 @@
 
 <div class="card" style="border: 1px solid #e0e0e0; border-radius: 25px; overflow: hidden; margin: 15px; padding: 15px; box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); position: relative;">
   {{ with $resource }}
-  {{ $image := .Resize "275x" }} <!-- 이미지 크기를 반으로 줄임 -->
+  {{ $image := .Resize "275x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
@@ -31,11 +31,11 @@
   {{ end }}
   <div class="card-text" style="position: absolute; bottom: 10px; left: 10px;">
     <div class="section-subheading article-title mb-1">
-        <h4 style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+        <h4 style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
 
     {{ if $item.Params.authors }}
-    <div class="article-metadata" style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;">
+    <div class="article-metadata" style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;">
         <div>
             {{ partial "page_metadata_authors" $item }}
         </div>
@@ -43,7 +43,7 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style" style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;">
+    <div class="article-style" style="color: #DDA0DD; text-shadow: 0 0 8px #DDA0DD;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
@@ -58,11 +58,11 @@
 
 <style>
   .hover-neon {
-    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF; /* 네온 효과 */
+    box-shadow: 0 0 10px #DDA0DD, 0 0 20px #DDA0DD, 0 0 30px #DDA0DD, 0 0 40px #DDA0DD; /* 보라색 네온 효과 */
   }
 
   .hover-neon:hover {
-    box-shadow: 0 0 20px #00FFFF, 0 0 40px #00FFFF, 0 0 60px #00FFFF, 0 0 80px #00FFFF; /* 호버 시 더 밝게 빛남 */
+    box-shadow: 0 0 20px #DDA0DD, 0 0 40px #DDA0DD, 0 0 60px #DDA0DD, 0 0 80px #DDA0DD; /* 호버 시 더 밝게 빛남 */
   }
 
   .card a {

@@ -20,9 +20,9 @@ sections:
         align: center
         background:
           image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.5
+              caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%B9%A8%EA%B0%84-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EB%91%90-%EA%B0%9C%EC%9D%98-%EB%AF%B8%EB%8B%88%EC%96%B8%EC%A6%88-%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%94%BC%EA%B7%9C%EC%96%B4-tloFnD-7EpI)'
+              focal_point: ""
+              preview_only: false
           position: center
           color: '#333'
       - title: Medical AI
@@ -55,7 +55,7 @@ sections:
       order: desc
       page_type: projects
     design:
-      view: community/customleft
+      view: community/customblue
       columns: '1'
     
   - block: collection
@@ -68,7 +68,7 @@ sections:
       order: desc
       page_type: practices
     design:
-      view: community/customright
+      view: community/customgreen
       columns: '1'
   
   - block: collection
@@ -81,7 +81,7 @@ sections:
       order: desc
       page_type: planning
     design:
-      view: community/customleft
+      view: community/custompurple
       columns: '1'
   
   - block: markdown
