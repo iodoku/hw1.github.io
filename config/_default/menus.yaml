@@ -22,7 +22,7 @@ main:
     weight: 10
 
   - name: Projects
-    url: 
+    url: projects
     weight: 20
   - parent: Projects
     name: Dino Adventure
