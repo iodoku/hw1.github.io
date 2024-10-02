@@ -15,8 +15,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: AI
-        content: 'Just opened last month!'
+      - title: Fun
+        content: '웃으며 게임을 제작하는 개발자가 되고 싶습니다!'
         align: center
         background:
           image:
@@ -26,8 +26,8 @@ sections:
             caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%B8%8C%EB%A3%A8%ED%81%B4%EB%A6%B0-%EB%8B%A4%EB%A6%AC%EC%97%90-%EC%84%9C-%EC%9E%88%EB%8A%94-%EC%97%AC%EC%9E%90-pLCdAaMFLTE)'
           position: center
           color: '#333'
-      - title: Medical AI
-        content: Take a look at what we're working on...
+      - title: Like
+        content: '좋아하는 일을 하며 인생을 보내고 싶습니다'
         align: center
         background:
           image:
