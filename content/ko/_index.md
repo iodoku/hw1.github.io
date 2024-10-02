@@ -23,7 +23,7 @@ sections:
             filename: minions.jpg
             filters:
               brightness: 0.7
-          position: center
+          position: top
           color: '#333'
       - title: Like
         content: '좋아하는 일을 하며 인생을 보내고 싶습니다'
