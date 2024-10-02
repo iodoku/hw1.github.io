@@ -20,11 +20,21 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: contact.jpg
             filters:
               brightness: 0.5
           position: center
           color: '#333'
+      - title: Medical AI
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
