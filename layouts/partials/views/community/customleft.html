@@ -26,16 +26,16 @@
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
     <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-         alt="{{ $item.Title }}" class="img-responsive hover-pixel" loading="lazy" style="width: 100%; height: auto; transition: filter 0.3s ease;">
+         alt="{{ $item.Title }}" class="img-responsive hover-neon" loading="lazy" style="width: 100%; height: auto; transition: box-shadow 0.3s ease;">
   </a>
   {{ end }}
-  <div class="card-text">
-    <div class="section-subheading article-title mb-1 mt-3">
-        <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+  <div class="card-text" style="position: absolute; bottom: 10px; left: 10px;">
+    <div class="section-subheading article-title mb-1">
+        <h4 style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
 
     {{ if $item.Params.authors }}
-    <div class="article-metadata">
+    <div class="article-metadata" style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;">
         <div>
             {{ partial "page_metadata_authors" $item }}
         </div>
@@ -43,7 +43,7 @@
     {{ end }}
 
     {{ with $summary }}
-    <div class="article-style">
+    <div class="article-style" style="color: #00FFFF; text-shadow: 0 0 8px #00FFFF;">
       <p>{{ . }}</p>
     </div>
     {{ end }}
@@ -57,12 +57,15 @@
 </div>
 
 <style>
-  .hover-pixel {
-    filter: contrast(200%) saturate(150%) blur(2px);
-    image-rendering: pixelated; /* 픽셀화 효과 적용 */
+  .hover-neon {
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF; /* 네온 효과 */
   }
 
-  .hover-pixel:hover {
-    filter: none; /* 호버 시 선명해지는 효과 */
+  .hover-neon:hover {
+    box-shadow: 0 0 20px #00FFFF, 0 0 40px #00FFFF, 0 0 60px #00FFFF, 0 0 80px #00FFFF; /* 호버 시 더 밝게 빛남 */
+  }
+
+  .card a {
+    text-decoration: none;
   }
 </style>
