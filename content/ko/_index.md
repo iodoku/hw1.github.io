@@ -53,7 +53,7 @@ sections:
       count: 3
       offset: 0
       order: desc
-      page_type: portfolio
+      page_type: projects/portfolio
     design:
       view: community/customblue
       columns: '1'
@@ -79,7 +79,7 @@ sections:
       count: 3
       offset: 0
       order: desc
-      page_type: ideas
+      page_type: projects/ideas
     design:
       view: community/custompurple
       columns: '1'
