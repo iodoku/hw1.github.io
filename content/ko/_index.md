@@ -43,6 +43,26 @@ sections:
           icon_pack: fas
           description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br>
 
+  - block: skills
+    content:
+      title: "Technical Skills"
+      skills:
+        - name: C#
+          description: "Unity 개발의 주 프로그래밍 언어."
+          percent: 80
+          icon: c
+          icon_pack: fas
+        - name: Unity
+          description: "2D 및 3D 게임 프로젝트 개발 경험."
+          percent: 85
+          icon: unity
+          icon_pack: fab
+        - name: Python
+          description: "데이터 분석 및 간단한 자동화 스크립트 작성."
+          percent: 70
+          icon: python
+          icon_pack: fab
+
   - block: collection
     content:
       title: Portfolio
