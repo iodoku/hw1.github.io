@@ -4,9 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 
-design:
-  background:
-    color: '#f0f0f0' 
+
 
 # Appearance
 
