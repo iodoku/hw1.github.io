@@ -4,13 +4,8 @@ title:
 date: 2022-10-24
 type: landing
 
-design:
-  background:
-    color: '#f0f0f0'
 
 sections:
-
-
 
   - block: features
     id: features
