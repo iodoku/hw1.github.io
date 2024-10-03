@@ -23,14 +23,19 @@ sections:
           icon: c
           icon_pack: fas
           description: <span style="font-size:90%">객체 지향 프로그래밍에 대한 이해를 가지고 있습니다.</span><br><br>
+          
         - name: Unity
           icon: unity
           icon_pack: fab
           description:  <span style="font-size:90%">Unity를 사용하여 다양한 2D 및 3D 게임 프로젝트를 개발하고 있습니다.</span><br><br>
-        - name: 의료수학(Medical Math)
-          icon: riotgames
-          icon_pack: si
-          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
+
+        - name: Art
+          icon: bilibili
+          icon_pack: fab
+          description:  <span style="font-size:90%">Aseprite와 Photoshop을 활용하여 캐릭터 디자인 및 그래픽을 제작합니다.</span><br><br>
+
+
+
         - name: 컨텐츠 (Contents)
           icon: gamepad
           icon_pack: fas
