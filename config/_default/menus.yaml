@@ -37,7 +37,7 @@ main:
     url: practices
     weight: 30
 
-  - name: Skills
+  - name: Skills&Goals
     url: skills
     weight: 40
 
