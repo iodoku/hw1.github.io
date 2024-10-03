@@ -95,4 +95,4 @@ sections:
           icon: app-store-ios
           icon_pack: fab
           description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
-
+---
