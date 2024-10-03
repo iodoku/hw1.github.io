@@ -24,7 +24,7 @@ sections:
           description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
         - name: AOS
           icon: medapps
-          icon_pack: simple-icons
+          icon_pack: fas
           description:  <span style="font-size:90%">리그오브레전드, 스타크래프트.</span><br><br>
         - name: 의료수학(Medical Math)
           icon: calculator
