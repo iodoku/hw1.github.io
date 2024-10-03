@@ -20,15 +20,15 @@ sections:
       items:
         - name: 인공지능(AI)
           icon: itch-io
-          icon_pack: fas
+          icon_pack: fab
           description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
         - name: AOS
           icon: medapps
-          icon_pack: fas
+          icon_pack: fab
           description:  <span style="font-size:90%">리그오브레전드, 스타크래프트.</span><br><br>
         - name: 의료수학(Medical Math)
-          icon: calculator
-          icon_pack: fas
+          icon: riotgames
+          icon_pack: si
           description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
         - name: 컨텐츠 (Contents)
           icon: comment-dots
