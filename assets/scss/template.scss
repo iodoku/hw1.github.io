@@ -7,3 +7,8 @@
 .cta-group {
   justify-content: center;
 }
+
+$theme-color: #f0f0f0; // 테마 색상
+body {
+  background-color: $theme-color;
+}

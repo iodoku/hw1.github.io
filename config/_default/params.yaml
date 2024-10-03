@@ -4,6 +4,10 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 
+design:
+  primary_color: '#f0f0f0' # 기본 테마 색상
+  background_color: '#ffffff' # 배경색
+
 # Appearance
 
 appearance:
