@@ -15,17 +15,17 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">Lab's Interests</span>
-      text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
+      title: <span style="font-size:75%">경험해본 게임 장르</span>
+      text: 저는 이런 게임 장르를 경험해 봤습니다.<br><br><br><br>
       items:
         - name: 인공지능(AI)
-          icon: code-branch
+          icon: gamepad-2
           icon_pack: fas
           description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
+        - name: AOS
+          icon: riotgames
           icon_pack: fas
-          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
+          description:  <span style="font-size:90%">리그오브레전드, 스타크래프트.</span><br><br>
         - name: 의료수학(Medical Math)
           icon: calculator
           icon_pack: fas
