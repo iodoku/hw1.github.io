@@ -1,32 +1,62 @@
 ---
-title: Skills
-type: landing
+# Display name
+title: 吳健雄
 
-sections:
-  - block: skills
-    content:
-      title: "My Skills"
-      text: "제가 가진 기술과 역량을 아래에서 확인해보세요."
-      username: graph
-    design:
-      columns: '1'
-    
-    skills:
-      - name: Technical Skills
-        items:
-          - name: C#
-            description: "Unity 개발의 주 프로그래밍 언어."
-            percent: 80
-            icon: c
-            icon_pack: fas
-          - name: Unity
-            description: "2D 및 3D 게임 프로젝트 개발 경험."
-            percent: 85
-            icon: unity
-            icon_pack: fab
-          - name: Python
-            description: "데이터 분석 및 간단한 자동화 스크립트 작성."
-            percent: 70
-            icon: python
-            icon_pack: fab
+# Name pronunciation (optional)
+name_pronunciation: Chien Shiung Wu
+
+# Full name (for SEO)
+first_name: Shiung Wu
+last_name: Chien
+
+# Status emoji
+status:
+  icon: ☕️
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position/tagline
+role: Director of Cloud Infrastructure
+
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: devicon/python
+      - name: RStudio
+        description: ''
+        percent: 100
+        icon: devicon/rstudio
+      - name: PyTorch
+        description: ''
+        percent: 40
+        icon: devicon/pytorch
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
+
+
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 ---
+
+I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
