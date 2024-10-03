@@ -41,12 +41,7 @@ sections:
         - name: Game 
           icon: gamepad
           icon_pack: fas
-          description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br>
-
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: graph
+          description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
 
   - block: collection
     content:
@@ -86,26 +81,6 @@ sections:
     design:
       view: community/custompurple
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: slider
     content:
@@ -148,13 +123,4 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 3000  
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---
