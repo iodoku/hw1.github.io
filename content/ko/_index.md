@@ -45,9 +45,6 @@ sections:
           icon: gamepad
           icon_pack: fas
           description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
-      design:
-        background:
-          color: '#F5E7C1'
 
   - block: collection
     content:
