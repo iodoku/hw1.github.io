@@ -55,8 +55,6 @@ social:
 email: ''
 
 
-block: features
-id: features
 content:
   title: <span style="font-size:75%">Lab's Interests</span>
   text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
