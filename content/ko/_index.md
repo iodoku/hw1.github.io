@@ -9,7 +9,7 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%; color:orange;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다! </span>
+      title: <span style="font-size:75%; color:orange;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다! </span><br><br>
       text: <span style="font-size:110%">안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. <br>게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.</span><br><br><br><br>
 
       items:
@@ -28,15 +28,15 @@ sections:
           icon_pack: fab
           description:  <span style="font-size:90%">Aseprite와 Photoshop을 활용하여 캐릭터 디자인 및 그래픽을 제작합니다.</span><br><br>
 
-        - name: 컨텐츠 (Contents)
-          icon: gamepad
-          icon_pack: fas
-          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
-
-        - name: 개발 (Development)
-          icon: fantasy-flight-games
+        - name: Level
+          icon: laravel
           icon_pack: fab
-          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+          description:  <span style="font-size:90%">계속해서 노력하며 성장하는 개발자입니다.</span><br><br>
+
+        - name: Creative
+          icon: reacteurope
+          icon_pack: fab
+          description:  <span style="font-size:90%">게임 컨셉과 스토리, 메커니즘을 기획하며 재미있는 플레이 경험을 설계합니다.</span><br><br>
 
         - name: Game 
           icon: gamepad
