@@ -43,49 +43,7 @@ sections:
           icon_pack: fas
           description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br>
 
-  - block: slider
-    content:
-      slides:
-      - title: Fun
-        content: '웃으며 게임을 제작하는 개발자가 되고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: minions.jpg
-            filters:
-              brightness: 0.7
-          position: top
-          color: '#333'
-      - title: Like
-        content: '좋아하는 일을 하며 인생을 보내고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: pixel.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      - title: Dream
-        content: '끊임없이 꿈을 위해 노력하고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: disney.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-    design:
-      slide_height: '400px'
-      slide_width: '100px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000  
-
-
+  
   - block: collection
     content:
       title: Portfolio
@@ -145,18 +103,47 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: collection
+  - block: slider
     content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
+      slides:
+      - title: Fun
+        content: '웃으며 게임을 제작하는 개발자가 되고 싶습니다!'
+        align: center
+        background:
+          image:
+            filename: minions.jpg
+            filters:
+              brightness: 0.7
+          position: top
+          color: '#333'
+      - title: Like
+        content: '좋아하는 일을 하며 인생을 보내고 싶습니다!'
+        align: center
+        background:
+          image:
+            filename: pixel.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
+      - title: Dream
+        content: '끊임없이 꿈을 위해 노력하고 싶습니다!'
+        align: center
+        background:
+          image:
+            filename: disney.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
     design:
-      view: citation
-      columns: '1'
+      slide_height: '400px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000  
 
   - block: markdown
     content:

@@ -37,6 +37,10 @@ main:
     url: practices
     weight: 30
 
+  - name: Skills
+    url: skills
+    weight: 40
+
   - name: Contact
     url: contact
     weight: 50
