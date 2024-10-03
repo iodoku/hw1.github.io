@@ -15,28 +15,29 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">경험해본 게임 장르</span>
-      text: 저는 이런 게임 장르를 경험해 봤습니다.<br><br><br><br>
+      title: <span style="font-size:75%">Skills</span>
+      text: 제가 가지고 있는 능력과 기술은 다음과 같습니다.<br><br><br><br>
+
       items:
-        - name: 인공지능(AI)
-          icon: itch-io
+        - name: C#
+          icon: c
+          icon_pack: fas
+          description: <span style="font-size:90%">객체 지향 프로그래밍에 대한 이해를 가지고 있습니다.</span><br><br>
+        - name: Unity
+          icon: unity
           icon_pack: fab
-          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: AOS
-          icon: medapps
-          icon_pack: fab
-          description:  <span style="font-size:90%">리그오브레전드, 스타크래프트.</span><br><br>
+          description:  <span style="font-size:90%">Unity를 사용하여 다양한 2D 및 3D 게임 프로젝트를 개발하고 있습니다.</span><br><br>
         - name: 의료수학(Medical Math)
           icon: riotgames
           icon_pack: si
           description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
         - name: 컨텐츠 (Contents)
-          icon: comment-dots
+          icon: gamepad
           icon_pack: fas
           description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
         - name: 개발 (Development)
-          icon: laptop
-          icon_pack: fas
+          icon: fantasy-flight-games
+          icon_pack: fab
           description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
         - name: 솔루션 (Solution)
           icon: app-store-ios
