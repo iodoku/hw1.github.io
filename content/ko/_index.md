@@ -44,8 +44,9 @@ sections:
           description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br>
 
   - block: skills
-      name: Technical Skills
-      items:
+    content:
+      title: "Technical Skills"
+      skills:
         - name: C#
           description: "Unity 개발의 주 프로그래밍 언어."
           percent: 80
