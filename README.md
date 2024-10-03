@@ -1,128 +1,48 @@
----
-# Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
-type: landing
+# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
 
-sections:
+[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
-  - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%; color:orange;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다! </span><br><br>
-      text: <span style="font-size:110%">안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. <br>게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.</span><br><br>
-            {{% cta cta_link="https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5" cta_text="Download Introduce PDF →" %}}<br><br><br><br>
+The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
 
+️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
-      items:
-        - name: C#
-          icon: c
-          icon_pack: fas
-          description: <span style="font-size:90%">객체 지향 프로그래밍에 대한 이해를 가지고 있습니다.</span><br><br>
+[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
+[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
 
-        - name: Unity
-          icon: unity
-          icon_pack: fab
-          description:  <span style="font-size:90%">Unity를 사용하여 다양한 2D 및 3D 게임 프로젝트를 개발하고 있습니다.</span><br><br>
+Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
-        - name: Art
-          icon: bilibili
-          icon_pack: fab
-          description:  <span style="font-size:90%">Aseprite와 Photoshop을 활용하여 캐릭터 디자인 및 그래픽을 제작합니다.</span><br><br>
+[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
 
-        - name: Level
-          icon: laravel
-          icon_pack: fab
-          description:  <span style="font-size:90%">계속해서 노력하며 성장하는 개발자입니다.</span><br><br>
+The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
-        - name: Creative
-          icon: reacteurope
-          icon_pack: fab
-          description:  <span style="font-size:90%">게임 컨셉과 스토리, 메커니즘을 기획하며 재미있는 플레이 경험을 설계합니다.</span><br><br>
+- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
+- 📚 [View the **documentation**](https://docs.hugoblox.com/)
+- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
+- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
+- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
+- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
+- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-        - name: Game 
-          icon: gamepad
-          icon_pack: fas
-          description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
+## We ask you, humbly, to support this open source movement
 
-  - block: collection
-    content:
-      title: Portfolio
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      page_type: portfolio
-    design:
-      view: community/customblue
-      columns: '1'
-    
-  - block: collection
-    content:
-      title: Practices
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      page_type: practices
-    design:
-      view: community/customgreen
-      columns: '1'
-  
-  - block: collection
-    content:
-      title: Ideas
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      page_type: ideas
-    design:
-      view: community/custompurple
-      columns: '1'
+Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
 
-  - block: slider
-    content:
-      slides:
-      - title: Fun
-        content: '웃으며 게임을 제작하는 개발자가 되고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: minions.jpg
-            filters:
-              brightness: 0.7
-          position: top
-          color: '#333'
-      - title: Like
-        content: '좋아하는 일을 하며 인생을 보내고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: pixel.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      - title: Dream
-        content: '끊임없이 꿈을 위해 노력하고 싶습니다!'
-        align: center
-        background:
-          image:
-            filename: disney.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-    design:
-      slide_height: '400px'
-      slide_width: '100px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000  
----
+We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+
+### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+
+## Demo credits
+
+Please replace the demo images with your own.
+
+- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
+- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
+- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
+- Blog posts
+  - https://unsplash.com/photos/AndE50aaHn4
+  - https://unsplash.com/photos/OYzbqk2y26c
+- Avatars
+  - https://unsplash.com/photos/5yENNRbbat4
+  - https://unsplash.com/photos/WNoLnJo7tS8
