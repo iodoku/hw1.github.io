@@ -11,10 +11,6 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: 장동하
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Introduce PDF
-        url: uploads/Introduce.pdf
     design:
       css_class: dark
       background:
@@ -30,12 +26,7 @@ sections:
 
 
   - block: features
-    id: features
-    content:
-      title: <span style="font-size:75%; color:orange;">게임을 통해 즐거움을 창조하고 싶은 개발자입니다! </span><br><br>
-      text: <span style="font-size:110%">안녕하세요! 전북대학교 컴퓨터공학부 장동하입니다. <br>게임 개발에 열정을 가지고 있으며, Unity를 활용한 프로젝트 경험이 있습니다.</span><br><br>
-            {{% cta cta_link="https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5" cta_text="Download Introduce PDF" %}}<br><br><br><br>
-
+      {{% cta cta_link="https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5" cta_text="Download Introduce PDF" %}}<br><br><br><br>
 
       items:
         - name: C#
