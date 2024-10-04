@@ -17,6 +17,14 @@
 게임을 통해 사람들에게 즐거움을 주는 콘텐츠를 만들고 싶고, 앞으로 게임 개발에 대한 전문성을
 키우고자 합니다.
 
+**관심사**
+
+AOS 게임을 좋아하며, 팀워크와 전략적인 플레이에서 큰 재미를 느낍니다. 이러한 흥미를 바탕으
+로 게임의 메커니즘을 분석하고, 플레이어 경험을 더욱 향상시킬 수 있는 요소들을 고민하고 있습니
+다. 나만의 AOS 게임을 개발해 다양한 유저들과 함께 즐기는 날을 꿈꾸고 있습니다. 특히, 독특한
+캐릭터 디자인과 차별화된 게임플레이를 도입해 AOS 장르에 새로운 변화를 주고 싶습니다
+
+
 **진로**
 
 게임 개발에 대한 열정과 끊임없는 호기심으로 다양한 프로젝트에 참여해 경험을 쌓고 싶습니다. 부
@@ -34,11 +42,13 @@
 을 쌓고 싶습니다. 그 과정에서 유저들에게 영감을 주는 게임을 만들고, 게임을 통해 전 세계 사람
 들에게 즐거움을 전하는 개발자가 되고 싶습니다.
 
+- ⬇️ **Download PDF**[Introduce](https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5)
+
 
 - 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
 - 📚 [View the **documentation**](https://docs.hugoblox.com/)
 - 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
+- ⬇️ **Download PDF**[Introduce](https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5)
 - 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
 - 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
 - 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
