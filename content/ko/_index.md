@@ -11,18 +11,18 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: 장동하
-      text: ""
+      text: "게임을 통해 즐거움을 창조하고 싶은 개발자입니다!"
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: Download Introduce PDF
+        url: https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: minions.jpg
+          filename: background.jpg
           filters:
             brightness: 1.0
           size: cover
