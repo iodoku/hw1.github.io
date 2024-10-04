@@ -11,7 +11,6 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: 장동하
-      text: "게임을 통해 즐거움을 창조하고 싶은 개발자입니다!"
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Introduce PDF
