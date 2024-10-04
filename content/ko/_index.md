@@ -14,7 +14,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Introduce PDF
-        url: https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5
+        url: uploads/introduce.pdf
     design:
       css_class: dark
       background:
