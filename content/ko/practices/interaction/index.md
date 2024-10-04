@@ -30,6 +30,8 @@ image:
 - RPG 게임에서 마을의 NPC와 상호작용하는 시스템이 이러한 방식으로 구현된다는 점을 이해하게 되었습니다.
 - NPC와 아이템을 사고파는 과정을 통해 아이템 수가 늘어나는 방식과 아이템 관리에 대한 이해를 넓혔습니다.
 
+[참고사이트](https://www.youtube.com/@goldmetal)
+
 ![](Interaction2.png)
 ![](Interaction3.png)
 ![](Interaction4.png)
