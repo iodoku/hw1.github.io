@@ -23,9 +23,10 @@ organizations:
 
 
 interests:
-  - 유니티(Unity)
+  - Unity
   - c#
-  - 언리얼(Unreal Engine)
+  - Unreal Engine
+  - Photoshop
 
 
 # Social/Academic Networking
