@@ -3,8 +3,8 @@
 title: 장동하
 
 # Full name (for SEO)
-first_name: Jang
-last_name: Dongha
+first_name: Dongha
+last_name: Jang
 
 # Username (this should match the folder name)
 authors:
