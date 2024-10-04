@@ -60,6 +60,6 @@ AOS 게임을 좋아하며, 팀워크와 전략적인 플레이에서 큰 재미
 - Debuff
 - Gacha
 
-- ⬇️ **Download PDF**  
+## ⬇️ **Download PDF**  
 
 [Introduce PDF](https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5)

@@ -12,7 +12,7 @@ main:
     weight: 100
 
   - name: My Story
-    url: author/장동하
+    url: mystory
     weight: 10
 
   - name: Projects
