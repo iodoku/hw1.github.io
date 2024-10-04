@@ -12,9 +12,11 @@
 [![Portfolio](https://img.shields.io/badge/-Portfolio-brightgreen?style=for-the-badge)](https://iodoku.github.io/portfolio/)
 
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+안녕하세요! [저는](https://iodoku.github.io/portfolio/) 게임에 관심이 많고 게임 제작에 열정을 가진 장동하입니다. 현재 전북대학교 컴
+퓨터공학부에 재학 중이며, 유니티(Unity) 엔진을 활용하여 다양한 게임을 제작하고 있습니다. 저는
+게임을 통해 사람들에게 즐거움을 주는 콘텐츠를 만들고 싶고, 앞으로 게임 개발에 대한 전문성을
+키우고자 합니다.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
 
 The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
