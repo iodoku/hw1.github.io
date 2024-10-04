@@ -1,4 +1,4 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# [Develing](https://iodoku.github.io/)
 
 [![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
