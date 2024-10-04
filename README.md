@@ -9,7 +9,8 @@
 
 [![Skills&Goals](https://img.shields.io/badge/-Button-plastic-blue)](https://iodoku.github.io/skills/)
 
-[![Portfolio](https://img.shields.io/badge/-Documentation-brightgreen?style=for-the-badge)](https://iodoku.github.io/portfolio/) 
+[![Portfolio](https://img.shields.io/badge/-Portfolio-brightgreen?style=for-the-badge)](https://iodoku.github.io/portfolio/)
+
 
 Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
