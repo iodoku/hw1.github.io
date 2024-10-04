@@ -26,8 +26,10 @@ sections:
 
 
   - block: features
-      {{% cta cta_link="https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5" cta_text="Download Introduce PDF" %}}<br><br><br><br>
-
+    content:
+      text: |
+        {{% cta cta_link="https://drive.google.com/uc?export=download&id=1RJ9F3HT7VIPxVaRyXJSp3Xytb7jcdWW5" cta_text="Download Introduce PDF" %}}
+      
       items:
         - name: C#
           icon: c
@@ -58,6 +60,9 @@ sections:
           icon: gamepad
           icon_pack: fas
           description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
+
+
+      
 
   - block: collection
     content:
