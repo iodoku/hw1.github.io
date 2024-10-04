@@ -28,6 +28,12 @@ interests:
   - Unreal Engine
   - Photoshop
 
+hobbies:
+  - 인공지능 (AI)
+  - Vision & Language
+  - 의료수학 (Medical Mathematics)
+  - 항공우주 (Aerospace)
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
