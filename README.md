@@ -5,9 +5,11 @@
 **Develing**은 'Develop'과 지속적인 발전을 의미하는 '-ing'의 결합으로 탄생한 이름입니다. 
 그 의미처럼, 이 웹페이지는 끊임없이 성장하고, 다양한 프로젝트와 소통하며 자신을 소개하는 공간입니다.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/) 자기소개
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138) 목표
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy) 포트폴리오
+[![My Story](https://img.shields.io/badge/-Button-flat-green)](https://hugoblox.com/hugo-themes/) 자기소개
+
+[![Skills&Goals](https://img.shields.io/badge/-Button-plastic-blue)](https://iodoku.github.io/skills/)
+
+[![Portfolio](https://img.shields.io/badge/-Documentation-brightgreen?style=for-the-badge)](https://iodoku.github.io/portfolio/) 
 
 Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
