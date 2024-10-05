@@ -40,27 +40,33 @@ sections:
         - name: Unity
           icon: unity
           icon_pack: fab
-          description:  <span style="font-size:90%">Unity를 사용하여 다양한 2D 및 3D 게임 프로젝트를 개발하고 있습니다.</span><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">Unity를 사용하여 다양한 2D 및 3D 게임 프로젝트를 개발하고 있습니다.</span><br><br>
 
         - name: Art
           icon: bilibili
           icon_pack: fab
-          description:  <span style="font-size:90%">Aseprite와 Photoshop을 활용하여 캐릭터 디자인 및 그래픽을 제작합니다.</span><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">Aseprite와 Photoshop을 활용하여 캐릭터 디자인 및 그래픽을 제작합니다.</span><br><br>
 
         - name: Level
           icon: laravel
           icon_pack: fab
-          description:  <span style="font-size:90%">계속해서 노력하며 성장하는 개발자입니다.</span><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">계속해서 노력하며 성장하는 개발자입니다.</span><br><br>
 
         - name: Creative
           icon: reacteurope
           icon_pack: fab
-          description:  <span style="font-size:90%">게임 컨셉과 스토리, 메커니즘을 기획하며 재미있는 플레이 경험을 설계합니다.</span><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">게임 컨셉과 스토리, 메커니즘을 기획하며 재미있는 플레이 경험을 설계합니다.</span><br><br>
 
         - name: Game 
           icon: gamepad
           icon_pack: fas
-          description:  <span style="font-size:90%">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">다양한 장르의 게임을 즐기며 경험을 쌓고 있습니다.</span><br><br><br><br>
+
 
 
       
