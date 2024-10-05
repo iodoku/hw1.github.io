@@ -68,7 +68,10 @@ sections:
     content:
       title: Portfolio
       subtitle:
-      text:
+      text: |
+        <div style="text-align: justify;">
+        다양한 프로젝트를 통해 제작한 게임과 작업물을 소개합니다.
+        </div>
       count: 3
       offset: 0
       order: desc
@@ -83,7 +86,7 @@ sections:
     content:
       title: Practices
       subtitle:
-      text:
+      text: 다양한 프로젝트를 통해 제작한 게임과 작업물을 소개합니다.
       count: 3
       offset: 0
       order: desc
