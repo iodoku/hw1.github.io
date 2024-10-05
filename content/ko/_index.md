@@ -69,9 +69,9 @@ sections:
       title: Portfolio
       subtitle:
       text: |
-        <div style="text-align: justify;">
+        <p style="text-align: justify;">
         다양한 프로젝트를 통해 제작한 게임과 작업물을 소개합니다.
-        </div>
+        </p>
       count: 3
       offset: 0
       order: desc
