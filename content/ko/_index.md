@@ -34,7 +34,8 @@ sections:
         - name: C#
           icon: c
           icon_pack: fas
-          description: <span style="font-size:90%">객체 지향 프로그래밍에 대한 이해를 가지고 있습니다.</span><br><br>
+          description: |
+            <span style="font-size:90%; text-align: justify;">객체 지향 프로그래밍에 대한 이해를 가지고 있습니다.</span><br><br>
 
         - name: Unity
           icon: unity
