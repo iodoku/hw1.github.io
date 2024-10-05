@@ -78,8 +78,6 @@ sections:
       columns: '1'
       background:
         color: '#C5D1B4'
-    advanced:
-      css_style: "text-align: center;"
     
   - block: collection
     content:
