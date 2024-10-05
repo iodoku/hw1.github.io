@@ -68,10 +68,7 @@ sections:
     content:
       title: Portfolio
       subtitle:
-      text: |
-        <p style="text-align: justify;">
-        다양한 프로젝트를 통해 제작한 게임과 작업물을 소개합니다.
-        </p>
+      text:
       count: 3
       offset: 0
       order: desc
@@ -81,12 +78,14 @@ sections:
       columns: '1'
       background:
         color: '#C5D1B4'
+    advanced:
+      css_style: "text-align: center;"
     
   - block: collection
     content:
       title: Practices
       subtitle:
-      text: 다양한 프로젝트를 통해 제작한 게임과 작업물을 소개합니다.
+      text:
       count: 3
       offset: 0
       order: desc
